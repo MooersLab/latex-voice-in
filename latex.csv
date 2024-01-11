@@ -1,1 +1,723 @@
 list font sizes in latex,"tiny, scriptsize, footnotesize, small, normal, large, Large, huge, Huge"
+index key, \index{ }
+insert 10 simple rules,"\begin{verbatim}
+\section{Introduction}  
+\section{Rule 1: <capitalize> }
+\section{Rule 2: <capitalize> }
+\section{Rule 3: <capitalize> }
+\section{Rule 4: <capitalize> }  
+\section{Rule 5: <capitalize> }
+\section{Rule 6: <capitalize> }
+\section{Rule 7: <capitalize> }
+\section{Rule 8: <capitalize> }
+\section{Rule 9: <capitalize> }  
+\section{Rule 10: <capitalize> }
+\section{Conclusions}
+\end{verbatim}"
+insert 3 by 3 table,"% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{Python script to find lost bytes.}
+\index{copying and pasting code!lost bytes}
+\label{tab:label}
+\begin{center}
+    \begin{tabular}{lcc}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+						&
+        LongHeader2 &
+        LongHeader3 \
+        \multicolumn{1}{c}{Parameters} &
+        \multicolumn{1}{c}{(unit1)} &
+        \multicolumn{1}{c}{(unit2)} \ \midrule
+        Item1   & X11  & X12 \
+        X11   & X11  & X12 \
+        X12   & X11  & X12  \ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table label (end)
+"
+insert 3x3 table,"% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{Python script to find lost bytes.}
+\index{copying and pasting code!lost bytes}
+\label{tab:label}
+\begin{center}
+    \begin{tabular}{lcc}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+						&
+        LongHeader2 &
+        LongHeader3 \
+        \multicolumn{1}{c}{Parameters} &
+        \multicolumn{1}{c}{(unit1)} &
+        \multicolumn{1}{c}{(unit2)} \ \midrule
+        Item1   & X11  & X12 \
+        X11   & X11  & X12 \
+        X12   & X11  & X12  \ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table label (end)"
+insert 4x2 table,"% Table template
+% needs \usepackage{booktabs}
+\begin{table}[htp]
+\caption{This is a test.}
+\label{two columns}
+\begin{center}
+    \begin{tabular}{ll}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+        LongHeader1 & MediumHeaderX \\ 
+        \multicolumn{1}{c}{(unit1)} & 
+        \multicolumn{1}{c}{(unit2)} \\ \midrule
+        Item1   & X1      \\ 
+        Item2   & X2      \\ 
+        Item1   & X1      \\ 
+        Item2   & X2      \\ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}"
+insert 4x4 table,"% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{Python script to find lost bytes.}
+\index{copying and pasting code!lost bytes}
+\label{tab:label}
+\begin{center}
+    \begin{tabular}{lccc}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+                         &
+        LongHeader2 &
+        LongHeader3 &
+        LongHeader4 \
+        \multicolumn{1}{l}{Parameters} &
+        \multicolumn{1}{c}{(unit1)} &
+        \multicolumn{1}{c}{(unit2)} &
+        \multicolumn{1}{c}{(unit3)} \ \midrule
+        Item1 & X11 & X12 & X13 \
+        Item2 & X21 & X22 & X23 \
+        Item3 & X31 & X32 & X33 \
+        Item4 & X41 & X42 & X43 \ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table label (end)"
+insert 5x5 table,"% Add this package to the Preamble \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{Python script to find lost bytes.}
+\index{copying and pasting code!lost bytes}
+\label{tab:label}
+\begin{center}
+    \begin{tabular}{lcccc}
+%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
+        \toprule
+                         &
+        LongHeader1 &
+        LongHeader2 &
+        LongHeader3 &
+        LongHeader4 \
+        \multicolumn{1}{l}{Parameters} &
+        \multicolumn{1}{c}{(unit1)} &
+        \multicolumn{1}{c}{(unit2)} &
+        \multicolumn{1}{c}{(unit2)} &
+        \multicolumn{1}{c}{(unit4)} \ \midrule
+        Item1 & X11 & X12 & X13 & X13\
+        Item2 & X21 & X22 & X23 & X23\
+        Item3 & X31 & X32 & X33 & X33\
+        Item4 & X41 & X42 & X43 & X43\
+        Item5 & X51 & X52 & X53 & X53\ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table label (end)"
+insert affiliations,"\aff[a]{Department of Biochemsitry and Physiology, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73104 \country{USA}}
+\aff[b]{Laboratory of Biomolecular Structure and Function, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73104}
+\aff[c]{Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73104}"
+insert chapter head,"%!TEX root = ../main.tex
+\chapter{Replace}
+\label{AnalysisofVariance} % Always give a unique label
+\chaptermark{AnalysisofVariance}
+\index{Analysis of Variance}
+\section{Introduction}"
+insert check mark,[\checkmark] 
+insert checkbox,[\checkmark] 
+insert checked box,[\checkmark] 
+insert checklist with five items,"\begin{itemized}
+\item [\checkmark]
+\item [  ]
+\item [  ]
+\item [  ]
+\item [  ]
+\end{itemized}"
+insert code 0,"% Line numbering on and aligned with left margin. 
+\begin{code}{}
+\index{openCV!measureSizes}
+\label{lst:measureSize}
+\caption{Contents of measureSizes.py.}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=true,
+               xleftmargin=\parindent,
+               breaklines]{python}
+import me
+\end{minted}
+\end{code}
+"
+insert code block,"\begin{code}{}
+\index{${1:openCV}!${2:measureSizes}}
+\label{lst:${3:measureSize}}
+\caption{${4:Contents of measureSizes.py.}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=true,
+               xleftmargin=\parindent,
+               breaklines]{python}
+${5:import me}
+\end{minted}
+\end{code}"
+insert code from file,"% Code env with inputminted file.
+\begin{code}{}
+\label{lst:quadraticEstimationBinomialPosterior}
+\index{quadratic estimation of a binomial posterior}
+\caption{Example of the use of quadratic estimation of a binomial posterior.}
+\inputminted[frame=lines,framerule=2pt,linenos=false,xleftmargin=\parindent,breaklines]{R}{./Content/codeListings/McElreath2015quadraticEstPosterior.R}
+\end{code}"
+insert code zero block,"% Line numbering on and aligned with left margin. 
+\begin{code}{}
+\index{openCV!measureSizes}
+\label{lst:measureSize}
+\caption{Contents of measureSizes.py.}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=true,
+               xleftmargin=\parindent,
+               breaklines]{python}
+import me
+\end{minted}
+\end{code}
+"
+insert description list,"\begin{description}
+  \item [] <capitalize>
+  \item [] <capitalize>
+  \item [] <capitalize>
+  \item [] <capitalize>
+\end{description}"
+insert e-mail address,blaine-mooers@ouhsc.edu
+insert emacs index key,\index{Emacs}
+insert enumerated list,"\begin{enumerate}
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+\end{enumerate}"
+insert equation,"\begin{equation}
+\label{eq:XXXXX}
+
+\end{equation}"
+insert equation with caption,"% Add the commented lines to Premable. Enables use of captions and thereby making a list of equations.
+%\usepackage{float}
+%\floatstyle{plain}
+% How is this used??
+%\newfloat{myequation}{H}{eq}[section]
+%\floatname{myequation}{Equation}
+\begin{my equation}[!htps]
+\caption{}
+\index{}
+\label{}
+X = A +B 
+\end{myequation}
+"
+insert equations for hemihedry,"\begin{equation}
+\begin{aligned}
+& I_{\mathrm{obs}}\left(\mathbf{h}_1\right)=(1-\alpha) I\left(\mathbf{h}_1\right)+\alpha I\left(\mathbf{h}_2\right), \\
+& I_{\text {obs }}\left(\mathbf{h}_2\right)=\alpha I\left(\mathbf{h}_1\right)+(1-\alpha) I\left(\mathbf{h}_2\right),
+\end{aligned}
+\end{equation}"
+insert figure,"\label{fig:test}
+\begin{figure}[htp]
+ \begin{center}
+  \includegraphics[width=0.99\textwidth]{./Content/Figures/testpng}
+ \end{center}
+\end{figure}
+"
+insert footnote with url,\footnote{\url{}}.
+insert for all,\footnote{\url{  }}.
+insert funding,"R01 CA242845, R01 AI088011
+NIH: P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
+OCAST HR20-002; 
+PHF Team Science Grant"
+insert funding slide,"\subsection{Acknowledgements}
+\begin{frame}
+\frametitle{Acknowledgements}
+\Large{
+% \begin{itemize}[font=$\bullet$\scshape\bfseries]
+%     \item Nathan Shock Data Science Workshop
+% \end{itemize}
+%\vspace{2mm}
+Funding:
+\begin{itemize}[font=$\bullet$\scshape\bfseries]
+    \item NIH: R01 CA242845, R01 AI088011
+    \item NIH: P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
+    \item OCAST HR20-002; 
+    \item PHF Team Science Grant
+\end{itemize}
+}
+\end{frame}
+"
+insert furl,\footnote{\url{   }}
+insert hypotheses for methods papers,"First, it is possible to have a hypothesis about methodology because the development of methodology is driven by the belief that method A will be better than method B.
+Second, the development of the new method will enable me to do something that was impossible to study satisfactory before before.
+Third, this new method is just as precise as old method but it is less expensive.
+"
+insert in text code,\mintinline{bash}{}
+insert index,\index{Replace}
+insert subsection and index,"\subsection{Replace}
+\index{Replace}"
+insert index and subsubsection,"\subsubsection{Replace}
+\index{Replace}"
+insert index key,\index{Replace}
+insert item,<newline>  \item <capitalize>
+insert item checkbox,\item [\checkmark] 
+insert itemized list,"\begin{itemize}
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+\end{itemize}
+"
+insert long itemized list,"\begin{itemize}
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+  \item <capitalize>
+\end{itemize}"
+insert mint in line,"\mintinline{bash}{}
+"
+insert palm table,"\begin{table}[htp] 
+\caption{Record for \today.}
+\index{Pomodoro!activity inventory}
+\label{tab:activity}
+%p{0.678\textwidth}
+    \begin{tabular}{l  l l l l l}
+        \toprule
+    Date	&
+    ProjectID &
+    Description of Activity &
+    Est. & 
+    Actual & 
+    Diff. \\
+\midrule
+ 2023 September 5  &   & Revise personal statement in Boiosketch for Ramesh  &  4 &  & \\
+\bottomrule
+\end{tabular}
+\end{table}"
+insert quote,"\begin{quote}
+Replace
+\end{quote}"
+insert retro hypothesis,These data presented a unique opportunity for us to test the hypothesis that ....
+insert rule,<newline><insertspace><insertspace>  \item Rule ##:<insertspace><capitalize>
+insert sayre's equation,"$$F_{hkl}=\sum_{h'k'l'} F_{h'k'l'}F_{h-h',k-k',l-l'}$$"
+insert section,\section{<date>}
+insert short palm table,"\begin{table}[htp] % (fold)
+\caption{Pomorodo record for \today}
+\label{tab:}
+\begin{center}
+\begin{tabular}{llcc}
+\hline 
+\multicolumn{1}{p{2.25cm}}{Project ID} & \multicolumn{1}{p{9.5cm}}{Task} & \multicolumn{1}{p{1.5cm}}{Planned Poms} & \multicolumn{1}{p{1.5cm}}{Used Poms}\\
+\hline
+     &    &   &    \\
+     &    &   &    \\
+     &    &   &    \\
+     &    &   &    \\
+     &    &   &    \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+"
+insert slide subsection,\subsection{slide XX: <capitalize>
+insert slide with 7x2 table,"% Slide timestamps
+\begin{frame}
+\frametitle{Open external text editor}
+\begin{table}
+\caption{Shortcuts to text editors outside of PyMOL.}
+\begin{center}
+\begin{tabular}{p{3.5cm} p{3.5cm}}
+\toprule
+    Shortcut &  Editor \\
+\midrule
+    atom  &      Atom \\
+    mate  &      TextMate \\
+    vim   &      vim\\
+    emacs &      emacs\\
+    npp   &      notepad++ \\
+    gedit  &     gedit \\
+    code    &    Visual Studio Code\\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+%\exampleCodeC
+% \begin{center}
+% \includegraphics[scale=0.335]{./Figures/saveFileTimeStamp.png}
+% \end{center}
+\end{frame}
+\note{While on the subject of files, PyMOL has a primitive built-in text editor. 
+You access it by selecting file $\rightarrow$ edit pymolrc. 
+The top menu bar on the Mac is replaced with a short menu bar.
+The File pulldown allows us to save the file to a different filename while the syntax pulldown changes the lexer or syntax highlighter to other file types like a Python script.}
+"
+insert slide with 8x4 table,"% Slide timestamps
+\begin{frame}
+\frametitle{Compatible computer environments}
+\begin{table}
+%\caption{Shortcuts to text editors outside of PyMOL.}
+\begin{center}
+\begin{tabular}{p{3.5cm} p{2.5cm} p{2.5cm} p{2.5cm}}
+\toprule
+    Environment & Voice-In & Serenade & Talon \\
+\midrule
+Chrome browser &   1    &  1   &  1 \\
+Overleaf       &   1    &  0   &  1 \\
+750words.com   &   1    &  0   &  1 \\
+iterm2         &   0    &  1   &  1 \\ 
+Jupyter code cell  &   0    &  1   &  1 \\
+Jupyter markdown cell & 1    &  0    & 1 \\
+posit (RStudio) &   0    &  1   &  1  \\
+Pluto          & 1       &  1   & 1   \\
+\bottomrule
+\end{tabular}
+\end{center}
+\end{table}
+\end{frame}
+\note{ I use one here to indicate a positive response or capability. 
+I used 0 to indicate that the given software does not work in that corresponding environment.
+}"
+insert slide with bullet list,"\subsection{Replace}
+\begin{frame}
+\frametitle{Replace}
+\Large{
+\begin{itemize}[font=$\bullet$\scshape\bfseries]
+    \item NIH: R01 CA242845, R01 AI088011
+    \item NIH: P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
+    \item OCAST HR20-002; 
+    \item PHF Team Science Grant
+\end{itemize}
+}
+\end{frame}"
+insert slide with code,"\defverbatim[colored]\exampleCodeA{
+\Large{
+\begin{bashcode}
+    spse 3fao
+    ls 3fao*
+    3faoy2019m07d18h08m33s30.pse
+\end{bashcode}
+}
+}
+\defverbatim[colored]\exampleCodeB{
+\Large{
+\begin{pythoncode}
+    spng
+    spdb
+\end{pythoncode}
+}
+}
+% Slide timestamps
+\begin{frame}
+\frametitle{Saving file with time stamp}
+\exampleCodeA
+\pause
+Shortcuts for all other file types:
+\exampleCodeB
+% \begin{center}
+% \includegraphics[scale=0.335]{./Figures/saveFileTimeStamp.png}
+% \end{center}
+\end{frame}
+\note{While on the subject of files, PyMOL has a primitive built-in text editor. 
+You access it by selecting file $\rightarrow$ edit pymolrc. 
+The top menu bar on the Mac is replaced with a short menu bar.
+The File pulldown allows us to save the file to a different filename while the syntax pulldown changes the lexer or syntax highlighter to other file types like a Python script.}
+"
+insert slide with figure,"\subsection{Voice-In custom command editor}
+\begin{frame}
+\frametitle{Voice-In Plus action commands}
+\begin{center}
+\includegraphics[width=0.6\textwidth]{./Figures/customCommands.png}
+\end{center}
+\end{frame}
+\note{The main}"
+insert slide with paused list,"% \subsubsection{ Slide 7 }
+\begin{frame}
+\frametitle{shortcuts $\equiv$ Python functions} 
+\Large{
+\begin{itemize}
+    \pause
+    \item Add styles of molecular representation
+    \pause
+    \item Address missing features of PyMOL \\
+    (e.g., version control)
+        \pause
+    \item Open external programs \\
+    (e.g., text editors, image editors, MS Word)
+        \pause
+    \item Utilize other Python modules\\
+    (e.g. webrowser, beautifulSoup4)
+%      \pause
+%  \item Code in docstring $rightarrow$ gateway to scripting
+\end{itemize}
+}
+\end{frame}
+\note{}
+"
+insert slide with text left of figure,"\begin{frame}
+\frametitle{Five categories by side chain properties}
+  \begin{columns}[T]
+    \begin{column}{.5\textwidth}
+     \begin{block}{\begin{itemize}
+         \item 7 nonpolar, aliphatic
+         \item 3 aromatic
+         \item 5 polar, uncharged
+         \item 3 postively charged
+         \item 2 negatively charged
+         \end{itemize}}
+% Your text here
+    \end{block}
+    \end{column}
+    \begin{column}{.5\textwidth}
+    \begin{block}{Side chain atom names}
+% Your image included here
+    \includegraphics[width=0.99\textwidth]{./lecture1figs/GreekLetterSideChains.png}
+    \end{block}
+    \end{column}
+  \end{columns}
+\end{frame}"
+insert slideshow preamble,"% !TEX TS-program = pdflatex --shell-escape
+%\documentclass[handout]{beamer} %slides+notes only
+%\documentclass[10pt,t]{beamer} %slides only
+% The laulatex is being updated. The following RequirePackage line is needed for now.
+
+\documentclass[aspectratio=169]{beamer}
+\RequirePackage{luatex85}
+\usepackage{pgfpages}
+\usepackage{moresize}
+\usetheme{default}
+\beamertemplatenavigationsymbolsempty
+\hypersetup{pdfpagemode=UseNone} % don't show bookmarks on initial view
+%tables
+\usepackage{booktabs}% http://ctan.org/pkg/booktabs
+% font
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{minted}
+\usepackage{fix-cm}
+\usepackage{fontspec}
+\usepackage{gensymb}
+\usepackage{tabularx,booktabs}
+
+\newminted{python}{fontsize=\normalsize, 
+                   linenos=false,
+                   numbersep=8pt,
+                   gobble=4,
+                   breaklines,
+                   frame=lines,
+                   bgcolor=bgpython,
+                   framesep=3mm}
+
+\newminted{bash}{fontsize=\normalsize, 
+                   linenos=false,
+                   numbersep=8pt,
+                   breaklines,
+                   gobble=4,
+                   frame=lines,
+                   bgcolor=bgbash,
+                   framesep=3mm}
+
+\definecolor{bgpython}{rgb}{0.95,0.95,0.95}
+\definecolor{bgbash}{rgb}{0.95,0.85,0.75}
+
+\setsansfont{TeX Gyre Heros}
+\setbeamerfont{note page}{family*=pplx,size=\footnotesize} % Palatino for notes
+% ""TeX Gyre Heros can be used as a replacement for Helvetica""
+% In Unix, unzip the following into ~/.fonts
+% In Mac, unzip it, double-click the .otf files, and install using ""FontBook""
+%   http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
+
+% Center the title and increase its size
+\setbeamertemplate{frametitle}[default][center]
+\setbeamerfont{frametitle}{size=\huge}
+
+
+% named colors
+\definecolor{offwhite}{RGB}{249,242,255}
+\definecolor{foreground}{RGB}{25,25,25}
+\definecolor{background}{RGB}{255,255,255}
+\definecolor{title}{RGB}{100,0,0}
+\definecolor{gray}{RGB}{155,155,155}
+\definecolor{subtitle}{RGB}{50,0,0}
+\definecolor{hilight}{RGB}{102,255,204}
+\definecolor{vhilight}{RGB}{255,111,207}
+\definecolor{lolight}{RGB}{155,155,155}
+%\definecolor{green}{RGB}{125,250,125}
+
+% use those colors
+\setbeamercolor{titlelike}{fg=title}
+\setbeamercolor{subtitle}{fg=subtitle}
+\setbeamercolor{institute}{fg=gray}
+\setbeamercolor{normal text}{fg=foreground,bg=background}
+\setbeamercolor{item}{fg=foreground} % color of bullets
+\setbeamercolor{subitem}{fg=gray}
+\setbeamercolor{itemize/enumerate subbody}{fg=gray}
+\setbeamertemplate{itemize subitem}{{\textendash}}
+\setbeamerfont{itemize/enumerate subbody}{size=\footnotesize}
+\setbeamerfont{itemize/enumerate subitem}{size=\footnotesize}
+
+% page number
+\setbeamertemplate{footline}{%
+    \raisebox{5pt}{\makebox[\paperwidth]{\hfill\makebox[20pt]{\color{gray}
+          \scriptsize\insertframenumber}}}\hspace*{5pt}}
+
+% add a bit of space at the top of the notes page
+\addtobeamertemplate{note page}{\setlength{\parskip}{12pt}}
+
+% a few macros
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\ig}{\includegraphics}
+\newcommand{\subt}[1]{{\footnotesize \color{subtitle} {#1}}}
+
+\usepackage{latexsym} % for squares for the check-list environment
+\newenvironment{checklist}{%
+  \begin{list}{}{}% whatever you want the list to be
+  \let\olditem\item
+  \renewcommand\item{\olditem[$\Box$] }
+}{%
+  \end{list}
+}
+
+\title{A Library of Shortcuts For Faster Image Making with PyMOL}
+\author{\textbf{Blaine Mooers, PhD}}
+\institute{{Department of Biochemistry \& Molecular Biology}\\[2pt]{University of Oklahoma Health Sciences Center, Oklahoma City} }
+% to hide auto date,use \date{}
+\date{ACA Annual Meeting \\Covington, KY\\ 23 July 2019}
+
+
+\begin{document}
+
+% title slide
+{
+\setbeamertemplate{footline}{} % no page number here
+\frame{
+  \titlepage
+  \note{
+
+} } }
+"
+insert split equation,"\begin{equation}\label{eq:XXXXX}
+\begin{split}
+A &= B
+  &= B
+\end{split}    
+\end{equation}
+"
+insert stanley factor,$\left\langle I^2\right\rangle /\langle I\rangle^2$
+insert stanley ratio,$\langle F\rangle^2 /\left\langle F^2\right\rangle$
+insert sub sub section,\subsubsection{ReplaceMe}
+insert subsection,\subsection{Replace}
+insert subsubsection,\subsubsection{Replace}
+insert ten rules,"\begin{itemize}
+  \item Rule One: <capitalize>
+  \item Rule Two: <capitalize>
+  \item Rule Three: <capitalize>
+  \item Rule Four: <capitalize>
+  \item Rule Five: <capitalize>
+  \item Rule Six: <capitalize>
+  \item Rule Seven: <capitalize>
+  \item Rule Eight:<capitalize>
+  \item Rule Nine: <capitalize>
+  \item Rule Ten:<capitalize>
+\end{itemize}"
+insert the emacs philosopher,Protesilaos Stavrou
+insert tiny note, \note{\tiny{<capitalize>}}
+insert title slide,"% title slide
+\section{Title slide}
+{
+\setbeamertemplate{footline}{} % no page number here
+\frame{
+  \titlepage
+  \note{
+
+} } }"
+insert to do today,"\begin{table}[htp] 
+\caption{Tasks To Do \today.}
+\index{Pomodoro!to be dones}
+\label{tab:activity}
+%p{0.678\textwidth}
+    \begin{tabular}{l l l l}
+        \toprule
+    Deadline &
+    ProjectID to &
+    Task &
+    Estimated poms \\
+\midrule
+   &   & Revise personal statement for Ramesh  &  4 \\
+\midrule
+   &      & Unplanned and Urgent & \\
+\midrule
+  &   &                                         &  \\
+\bottomrule
+\end{tabular}
+\end{table}"
+insert today,\subsection{To be done today}
+insert two column table,"% Add this package to the Preamble 
+% \usepackage{booktabs}
+\begin{table}[htp] % (fold)
+\caption{Python script to find lost bytes.}
+\index{copying and pasting code!lost bytes}
+\label{tab:label}
+\begin{center}
+    \begin{tabular}{ll}
+\toprule
+        LongHeader2 & LongHeader3 \\
+ \midrule
+        Item1   & X11  \\
+        X11   & X11   \\
+        X12   & X11  \\ \bottomrule
+    \end{tabular}
+\end{center}
+\end{table}
+% table label (end)"
+insert url for space group tables,\url{http://img.chem.ucl.ac.uk/sgp/LARGE/sgp.htm}
+insert verbatim,"\begin{verbatim}
+Replace
+Replace
+\end{verbatim}"
+insert wilson ratio,$\langle F\rangle^2 /\left\langle F^2\right\rangle$
+insert wp enter,<press:wp><enter>
+inset code 0,"% Line numbering on and aligned with left margin. 
+\begin{code}{}
+\index{openCV!measureSizes}
+\label{lst:measureSize}
+\caption{Contents of measureSizes.py.}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=true,
+               xleftmargin=\parindent,
+               breaklines]{python}
+import me
+\end{minted}
+\end{code}
+"
+open overleaf documentaton,<open:https://www.overleaf.com/learn>
+open overleaf help,<open:https://www.overleaf.com/learn>
+tiny note, \note{\tiny{<capitalize>}}
+insert label,\label{Replace}
+insert ref,\ref{Replace}
+insert caption,\caption{Replace \label{Replace}}
+
