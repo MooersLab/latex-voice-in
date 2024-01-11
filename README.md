@@ -1,2 +1,3 @@
-# latex-voice-in: LaTeX related voice commands for Voice In Plus
+# latex-voice-in: Voice In Plus commands for LaTeX
+
 
