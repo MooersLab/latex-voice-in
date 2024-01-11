@@ -720,4 +720,3 @@ tiny note, \note{\tiny{<capitalize>}}
 insert label,\label{Replace}
 insert ref,\ref{Replace}
 insert caption,\caption{Replace \label{Replace}}
-
