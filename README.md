@@ -23,7 +23,7 @@ Equations, code snippets, and so on that span multiple lines are placed inside o
 Use the **Bulk Add** button in Voice In Plus to upload these commands into your collection of custom commands.
 Existing voice commands will be overwritten, so there has no problem with duplicates when pasting in an updated version of the CSV file.
 
-## Contents of the nih-grants.csv
+## Contents of the latex.csv
 
 - lists (font sizes, )
 - 
