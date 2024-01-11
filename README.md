@@ -59,7 +59,7 @@ You may find that you have to verbalize the command at high speed to avoid inser
 ### Keep handy the URL to the site for uploading commands
 I add commands to my account several times a day.
 I keep handy a link to the URL to the site for uploading commands into my account in a my custom built home page called index.html.
-I keep it on the top line next to my links other frequently used links like one to Canvas for my lectures, the project page on Overleaf, 750words.com, Outlook web mail, gmail, and my GitHub and Codeberg repos.
+I keep the link to the command page on the top line next to my links to other frequently used links like that one to Canvas for my lectures, the project page on Overleaf, 750words.com, Outlook web mail, gmail, and my GitHub and Codeberg repos.
 
 ## Contributions are welcome
 This project can benefit all NIH grant reviewers.
