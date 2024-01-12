@@ -5,7 +5,7 @@ This repo contains voice commands about LaTeX for the automated speech recogniti
 Voice In Plus is a Google Chrome extension.
 It only works in Google Chrome at this time.
 It works in the Overleaf web service that supports the academic writing in LaTeX in the web browser.
-I also use it in the text area of 754words.com, although this website does not render the LaTeX.
+I also use it in the text area of 750words.com, although this website does not render the LaTeX.
 
 The utilization of these custom commands requires a subscription to Voice In Plus.
 These commands can be used in the text area of most websites and web mail programs opened in Google Chrome.
