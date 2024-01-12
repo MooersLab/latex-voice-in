@@ -26,7 +26,11 @@ Existing voice commands will be overwritten, so there has no problem with duplic
 ## Contents of the latex.csv
 
 - lists (font sizes, )
-- 
+- templates for lists: itemized, enumberated, description, checklists
+- templates for floats: figures, tables, code blocks, equations with captions
+- templates for tables of various row by column sizes.
+- templates for slides with figures, tables, bullet lists
+- beamer slideshow preamble
 
 ## Related repos
 See [Voice Computing section of landing page](https://github.com/MooersLab/MooersLab?tab=readme-ov-file#voice-computing).
