@@ -68,6 +68,5 @@ I keep handy a link to the URL to the site for uploading commands into my accoun
 I keep the link to the command page on the top line next to my links to other frequently used links like that one to Canvas for my lectures, the project page on Overleaf, 750words.com, Outlook web mail, gmail, and my GitHub and Codeberg repos.
 
 ## Contributions are welcome
-This project can benefit all NIH grant reviewers.
 It should be a community project.
 Make a pull request, post a issue, or send me e-mail with additions in csv format.
