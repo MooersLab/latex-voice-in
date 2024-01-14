@@ -720,6 +720,1032 @@ tiny note, \note{\tiny{<capitalize>}}
 insert label,\label{Replace}
 insert ref,\ref{Replace}
 insert caption,\caption{Replace \label{Replace}}
+insert cpp code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{cpp}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert r code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{R}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert c code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{c}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert bash code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{bash}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert dot code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{dot}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert gnuplot code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{gnuplot}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert graphviz code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{graphviz}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert java code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{java}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert javascript code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{javascript}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert markdown code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{markdown}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert restructuredtext code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{restructuredtext}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert mathematica code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{mathematica}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert python code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{python}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert python code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{python}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert pycon code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{pycon}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert common lisp code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{common-lisp}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert elisp code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{elisp}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert clojure code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{clojure}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert clojurescript code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{clojurescript}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert make code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{make}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert cmake code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{cmake}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert fortran code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{fortran}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert html code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{html}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert css code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{css}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert latex code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{latex}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert nim code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{nim}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert bugs code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{bugs}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert stan code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{stan}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert jags code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{jags}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert r code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{r}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert rd code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{rd}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert rconsole code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{rconsole}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert cython code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{cython}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert numpy code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{numpy}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert sas code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{sas}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert stata code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{stata}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert slurm code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{slurm}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert zsh code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{zsh}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert tsch code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{tsch}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert text code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{text}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert sqlite3 code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{sqlite3}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert yaml code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{yaml}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert julia code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{julia}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert julia console code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{jlcon}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert scheme code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{scheme}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert matlab code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{matlab}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert matlabsession code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{matlabsession}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert octave code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{octave}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert scilab code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{scilab}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert ocaml code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{ocaml}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert reasonml code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{reasonml}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert applescript code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{applescript}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert rust code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{rust}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert ruby code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{ruby}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert lua code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{lua}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert sed code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{sed}
+<<Paste code here>>
+\end{minted}
+\end{code}
+insert xml code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{xml}
+<<Paste code here>>
+\end{minted}
+\end{code}
 insert awk code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
 %\usepackage{minted}
 %\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
@@ -756,4 +1782,3 @@ insert vim code,"% Add the following lines to the preamble to make a float envir
 <<Paste code here>>
 \end{minted}
 \end{code}"
-
