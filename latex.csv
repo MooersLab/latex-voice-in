@@ -23,15 +23,15 @@ insert 3 by 3 table,"% Add this package to the Preamble \usepackage{booktabs}
     \begin{tabular}{lcc}
 %    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
         \toprule
-						&
+		&
         LongHeader2 &
-        LongHeader3 \
+        LongHeader3 \\
         \multicolumn{1}{c}{Parameters} &
         \multicolumn{1}{c}{(unit1)} &
-        \multicolumn{1}{c}{(unit2)} \ \midrule
-        Item1   & X11  & X12 \
-        X11   & X11  & X12 \
-        X12   & X11  & X12  \ \bottomrule
+        \multicolumn{1}{c}{(unit2)} \\ \midrule
+        Item1   & X11  & X12 \\
+        X11   & X11  & X12 \\
+        X12   & X11  & X12  \\ \bottomrule
     \end{tabular}
 \end{center}
 \end{table}
@@ -48,13 +48,13 @@ insert 3x3 table,"% Add this package to the Preamble \usepackage{booktabs}
         \toprule
 						&
         LongHeader2 &
-        LongHeader3 \
+        LongHeader3 \\
         \multicolumn{1}{c}{Parameters} &
         \multicolumn{1}{c}{(unit1)} &
-        \multicolumn{1}{c}{(unit2)} \ \midrule
-        Item1   & X11  & X12 \
-        X11   & X11  & X12 \
-        X12   & X11  & X12  \ \bottomrule
+        \multicolumn{1}{c}{(unit2)} \\ \midrule
+        Item1   & X11  & X12 \\
+        X11   & X11  & X12 \\
+        X12   & X11  & X12  \\ \bottomrule
     \end{tabular}
 \end{center}
 \end{table}
@@ -90,15 +90,15 @@ insert 4x4 table,"% Add this package to the Preamble \usepackage{booktabs}
                          &
         LongHeader2 &
         LongHeader3 &
-        LongHeader4 \
+        LongHeader4 \\
         \multicolumn{1}{l}{Parameters} &
         \multicolumn{1}{c}{(unit1)} &
         \multicolumn{1}{c}{(unit2)} &
-        \multicolumn{1}{c}{(unit3)} \ \midrule
-        Item1 & X11 & X12 & X13 \
-        Item2 & X21 & X22 & X23 \
-        Item3 & X31 & X32 & X33 \
-        Item4 & X41 & X42 & X43 \ \bottomrule
+        \multicolumn{1}{c}{(unit3)} \\ \midrule
+        Item1 & X11 & X12 & X13 \\
+        Item2 & X21 & X22 & X23 \\
+        Item3 & X31 & X32 & X33 \\
+        Item4 & X41 & X42 & X43 \\ \bottomrule
     \end{tabular}
 \end{center}
 \end{table}
@@ -116,17 +116,17 @@ insert 5x5 table,"% Add this package to the Preamble \usepackage{booktabs}
         LongHeader1 &
         LongHeader2 &
         LongHeader3 &
-        LongHeader4 \
+        LongHeader4 \\
         \multicolumn{1}{l}{Parameters} &
         \multicolumn{1}{c}{(unit1)} &
         \multicolumn{1}{c}{(unit2)} &
         \multicolumn{1}{c}{(unit2)} &
-        \multicolumn{1}{c}{(unit4)} \ \midrule
-        Item1 & X11 & X12 & X13 & X13\
-        Item2 & X21 & X22 & X23 & X23\
-        Item3 & X31 & X32 & X33 & X33\
-        Item4 & X41 & X42 & X43 & X43\
-        Item5 & X51 & X52 & X53 & X53\ \bottomrule
+        \multicolumn{1}{c}{(unit4)} \\ \midrule
+        Item1 & X11 & X12 & X13 & X13\\
+        Item2 & X21 & X22 & X23 & X23\\
+        Item3 & X31 & X32 & X33 & X33\\
+        Item4 & X41 & X42 & X43 & X43\\
+        Item5 & X51 & X52 & X53 & X53\\ \bottomrule
     \end{tabular}
 \end{center}
 \end{table}
