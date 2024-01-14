@@ -720,3 +720,40 @@ tiny note, \note{\tiny{<capitalize>}}
 insert label,\label{Replace}
 insert ref,\ref{Replace}
 insert caption,\caption{Replace \label{Replace}}
+insert awk code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{awk}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+insert vim code,"% Add the following lines to the preamble to make a float environment for code listings so that they can be captions.
+%\usepackage{minted}
+%\newenvironment{code}{\captionsetup{type=listing}}{} % Make a float environment for code listings.
+% Lists can be generated for floats with captions by adding the two lines after the \tableofcontents macros.
+%\renewcommand\listoflistingscaption{List of source codes}
+%\listoflistings
+\begin{code}{}
+\index{replace1!replace2}
+% Remember to insert a matching \ref{} macro that references the label in the caption for the code listing.
+\caption{   \label{lst:replace1}}
+\begin{minted}[frame=lines,
+               framerule=2pt,
+               linenos=false,
+               xleftmargin=\parindent,
+               breaklines]{vim}
+<<Paste code here>>
+\end{minted}
+\end{code}"
+
