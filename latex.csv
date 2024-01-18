@@ -1782,3 +1782,12 @@ insert vim code,"% Add the following lines to the preamble to make a float envir
 <<Paste code here>>
 \end{minted}
 \end{code}"
+insert hyperlink setup,"\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }"
