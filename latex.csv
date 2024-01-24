@@ -103,26 +103,6 @@ insert 4x4 table,"% Add this package to the Preamble \usepackage{booktabs}
 \end{center}
 \end{table}
 % table label (end)"
-insert 5x5 table,"% Add this package to the Preamble \usepackage{booktabs}
-\begin{table}[htp] % (fold)
-\caption{Python script to find lost bytes.}
-\index{copying and pasting code!lost bytes}
-\label{tab:label}
-\begin{center}
-\begin{tabular}{lcccc}
-\toprule
-        & LongHeader1 & LongHeader2 & LongHeader3 & LongHeader4 \\
-\multicolumn{1}{l}{Parameters} & \multicolumn{1}{c}{(unit1)} & \multicolumn{1}{c}{(unit2)} & \multicolumn{1}{c}{(unit2)} & \multicolumn{1}{c}{(unit4)} \\ 
-\midrule
-        Item1 & X11 & X12 & X13 & X13\\
-        Item2 & X21 & X22 & X23 & X23\\
-        Item3 & X31 & X32 & X33 & X33\\
-        Item4 & X41 & X42 & X43 & X43\\
-        Item5 & X51 & X52 & X53 & X53\\ \bottomrule
-    \end{tabular}
-\end{center}
-\end{table}
-% table label (end)"
 insert affiliations,"\aff[a]{Department of Biochemsitry and Physiology, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73104 \country{USA}}
 \aff[b]{Laboratory of Biomolecular Structure and Function, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73104}
 \aff[c]{Stephenson Cancer Center, University of Oklahoma Health Sciences Center, Oklahoma City, Oklahoma 73104}"
