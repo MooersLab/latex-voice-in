@@ -109,19 +109,11 @@ insert 5x5 table,"% Add this package to the Preamble \usepackage{booktabs}
 \index{copying and pasting code!lost bytes}
 \label{tab:label}
 \begin{center}
-    \begin{tabular}{lcccc}
-%    \begin{tabular}{l p{12cm}} % use p when you have to control the column width
-        \toprule
-                         &
-        LongHeader1 &
-        LongHeader2 &
-        LongHeader3 &
-        LongHeader4 \\
-        \multicolumn{1}{l}{Parameters} &
-        \multicolumn{1}{c}{(unit1)} &
-        \multicolumn{1}{c}{(unit2)} &
-        \multicolumn{1}{c}{(unit2)} &
-        \multicolumn{1}{c}{(unit4)} \\ \midrule
+\begin{tabular}{lcccc}
+\toprule
+        & LongHeader1 & LongHeader2 & LongHeader3 & LongHeader4 \\
+\multicolumn{1}{l}{Parameters} & \multicolumn{1}{c}{(unit1)} & \multicolumn{1}{c}{(unit2)} & \multicolumn{1}{c}{(unit2)} & \multicolumn{1}{c}{(unit4)} \\ 
+\midrule
         Item1 & X11 & X12 & X13 & X13\\
         Item2 & X21 & X22 & X23 & X23\\
         Item3 & X31 & X32 & X33 & X33\\
