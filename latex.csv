@@ -121,11 +121,7 @@ insert code 0,"% Line numbering on and aligned with left margin.
 \index{openCV!measureSizes}
 \label{lst:measureSize}
 \caption{Contents of measureSizes.py.}
-\begin{minted}[frame=lines,
-               framerule=2pt,
-               linenos=true,
-               xleftmargin=\parindent,
-               breaklines]{python}
+\begin{minted}[xleftmargin=\parindent]{python}
 import me
 \end{minted}
 \end{code}"
