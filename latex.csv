@@ -115,13 +115,7 @@ insert chapter head,"%!TEX root = ../main.tex
 insert check mark,[\checkmark] 
 insert checkbox,[\checkmark] 
 insert checked box,[\checkmark] 
-insert checklist with five items,"\begin{itemized}
-\item [\checkmark]
-\item [  ]
-\item [  ]
-\item [  ]
-\item [  ]
-\end{itemized}"
+insert checklist with five items,"\begin{itemized} \n \item [\checkmark] \n \item [  ] \n \item [  ] \n \item [  ]  \n \item [  ] \n \end{itemized}"
 insert code 0,"% Line numbering on and aligned with left margin. 
 \begin{code}{}
 \index{openCV!measureSizes}
@@ -134,8 +128,7 @@ insert code 0,"% Line numbering on and aligned with left margin.
                breaklines]{python}
 import me
 \end{minted}
-\end{code}
-"
+\end{code}"
 insert code block,"\begin{code}{}
 \index{${1:openCV}!${2:measureSizes}}
 \label{lst:${3:measureSize}}
