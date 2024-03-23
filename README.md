@@ -1,3 +1,7 @@
+![Version](https://img.shields.io/static/v1?label=latex-voice-in&message=0.5&color=brightcolor)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+
 # latex-voice-in: Voice In Plus commands for LaTeX
 
 ## Introduction
