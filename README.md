@@ -68,17 +68,22 @@ It is better to pick a synonym for the new command than include the old one.
 
 ### Use verbs are prefixes
 
-- Use the verb "insert" before the name of the computer code or equation I want to insert.
-- Use the verb "expand" to expand acronyms.
+- Use the verb "insert" before the name of the computer or LaTeX code that I want to insert.
+- Use the verb "expand" to expand acronyms and to expand someone's first name to their full name.
 - Use the verb "list" to insert a list of items.
-- Use the phrase "url for" to insert the url for a website.
+- Use the verb "display" before the name of an equation to insert the equation in display mode.
+- Use a verb in "inline" before the name of an equation to insert the equation in a sentence.
+- Use the phrase "url for" to insert the URL for a website.
+- Use the phrase "cite" followed by whatever phrase you used to refer to a specific paper or book to insert its corresponding citekey.
+- Use the verb "email" followed by the name of a list of email addresses to send a message to a list of email addresses.
+
 
 ### Test the commands
 Like other forms of computer code, test the Voice In commands to ensure you get the intended effect.
 The speed with which you vocalize a command has a significant impact.
 You may have to verbalize the command at high speed to avoid inserting just the first word rather than the entire command.
 
-### Keep handy the URL to the site for uploading commands
+### Keep the URL to the site for uploading commands
 I add commands to my account several times a day.
 I keep handy a link to the URL to the site for uploading commands into my account in my custom-built home page called index.html.
 I keep the link to the command page on the top line next to my links to other frequently used links like that one to Canvas for my lectures, the project page on Overleaf, 750words.com, Outlook web mail, gmail, and my GitHub and Codeberg repos.
@@ -86,3 +91,11 @@ I keep the link to the command page on the top line next to my links to other fr
 ## Contributions are welcome
 It should be a community project.
 Make a pull request, post an issue, or send me an e-mail with additions in CSV format.
+
+## Update history
+|Version      | Changes                                                                                                                                    | Date                 |
+|:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
+| Version 0.2 |  Added badges and update table                                                                                                             | 2024 April 13        |
+| Version 0.2.1 |  Added to list verbs in the README.md file.                                                                                                         | 2024 April 13        |
+
+
