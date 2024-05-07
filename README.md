@@ -98,4 +98,7 @@ Make a pull request, post an issue, or send me an e-mail with additions in CSV f
 | Version 0.2 |  Added badges and update table                                                                                                             | 2024 April 13        |
 | Version 0.2.1 |  Added to list verbs in the README.md file.                                                                                              | 2024 April 13        |
 
+## Funding sources
+- NIH: R01 CA242845, R01 AI088011
+- NIH: P30 CA225520 (PI: R. Mannel); P20GM103640 and P30GM145423 (PI: A. West)
 
