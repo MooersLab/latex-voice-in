@@ -1,4 +1,4 @@
-![Version](https://img.shields.io/static/v1?label=latex-voice-in&message=0.1&color=brightcolor)
+![Version](https://img.shields.io/static/v1?label=latex-voice-in&message=0.2.1&color=brightcolor)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
@@ -50,7 +50,7 @@ Existing voice commands will be overwritten, so there is no problem with duplica
 - beamer slideshow preamble
 
 
-## Related reposistories
+## Related repositories
 See [Voice Computing section of landing page](https://github.com/MooersLab/MooersLab?tab=readme-ov-file#voice-computing).
 You will want to include the library of contractions at a minimum so that these can be eliminated from your formal prose.
 You may not want to gunk up your set of custom commands with my Global collection of commands.
@@ -96,6 +96,6 @@ Make a pull request, post an issue, or send me an e-mail with additions in CSV f
 |Version      | Changes                                                                                                                                    | Date                 |
 |:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
 | Version 0.2 |  Added badges and update table                                                                                                             | 2024 April 13        |
-| Version 0.2.1 |  Added to list verbs in the README.md file.                                                                                                         | 2024 April 13        |
+| Version 0.2.1 |  Added to list verbs in the README.md file.                                                                                              | 2024 April 13        |
 
 
