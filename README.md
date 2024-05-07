@@ -96,7 +96,7 @@ Make a pull request, post an issue, or send me an e-mail with additions in CSV f
 |Version      | Changes                                                                                                                                    | Date                 |
 |:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
 | Version 0.2 |  Added badges and update table                                                                                                             | 2024 April 13        |
-| Version 0.2.1 |  Added to list verbs in the README.md file.                                                                                              | 2024 April 13        |
+| Version 0.2.1 |  Added to list verbs in the README.md file.  Added funding.                                                                              | 2024 May 7           |
 
 ## Funding sources
 - NIH: R01 CA242845, R01 AI088011
