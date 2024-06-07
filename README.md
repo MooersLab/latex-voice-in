@@ -52,7 +52,7 @@ Existing voice commands will be overwritten, so there is no problem with duplica
 
 ## Related repositories
 See [Voice Computing section of landing page](https://github.com/MooersLab/MooersLab?tab=readme-ov-file#voice-computing).
-You will want to include the library of contractions at a minimum so that these can be eliminated from your formal prose.
+You will want to include the library of contractions at a minimum to eliminate these from your formal prose.
 You may not want to gunk up your set of custom commands with my Global collection of commands.
 Hence, there is a need for a standalone repository of LaTeX-related commands.
 
@@ -68,24 +68,24 @@ It is better to pick a synonym for the new command than include the old one.
 
 ### Use verbs are prefixes
 
-- Use the verb "insert" before the name of the computer or LaTeX code that I want to insert.
+- Use the verb "insert" before the name of LaTeX code to insert.
 - Use the verb "expand" to expand acronyms and to expand someone's first name to their full name.
 - Use the verb "list" to insert a list of items.
 - Use the verb "display" before the name of an equation to insert the equation in display mode.
 - Use a verb in "inline" before the name of an equation to insert the equation in a sentence.
 - Use the phrase "url for" to insert the URL for a website.
-- Use the phrase "cite" followed by whatever phrase you used to refer to a specific paper or book to insert its corresponding citekey.
+- Use the phrase "cite" followed by whatever phrase you used to refer to a specific paper or book to insert its corresponding cite key.
 - Use the verb "email" followed by the name of a list of email addresses to send a message to a list of email addresses.
 
 
 ### Test the commands
 Like other forms of computer code, test the Voice In commands to ensure you get the intended effect.
 The speed with which you vocalize a command has a significant impact.
-You may have to verbalize the command at high speed to avoid inserting just the first word rather than the entire command.
+You may have to verbalize the command quickly to avoid inserting the first word rather than the entire command.
 
 ### Keep the URL to the site for uploading commands
 I add commands to my account several times a day.
-I keep handy a link to the URL to the site for uploading commands into my account in my custom-built home page called index.html.
+I keep handy a link to the site's URL for uploading commands into my account on my custom-built home page, index.html.
 I keep the link to the command page on the top line next to my links to other frequently used links like that one to Canvas for my lectures, the project page on Overleaf, 750words.com, Outlook web mail, gmail, and my GitHub and Codeberg repos.
 
 ## Contributions are welcome
@@ -97,6 +97,7 @@ Make a pull request, post an issue, or send me an e-mail with additions in CSV f
 |:-----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------:|
 | Version 0.2 |  Added badges and update table                                                                                                             | 2024 April 13        |
 | Version 0.2.1 |  Added to list verbs in the README.md file.  Added funding.                                                                              | 2024 May 7           |
+| Version 0.2.2 |  Minor edits to the README.md to improve readability.                                                                                    | 2024 June 7          |
 
 ## Funding sources
 - NIH: R01 CA242845, R01 AI088011
